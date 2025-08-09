@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>YOUR NAME — Portfolio</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto;line-height:1.6;margin:0;padding:0;color:#111}
+    .wrap{max-width:900px;margin:40px auto;padding:20px}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:88px;height:88px;border-radius:12px;background:#ddd;flex:0 0 88px;display:flex;align-items:center;justify-content:center;font-weight:700}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{margin:6px 0 18px;color:#333}
+    .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+    .card{border:1px solid #e6e6e6;border-radius:8px;padding:12px;background:#fff}
+    .thumb{height:140px;background:#f4f4f4;border-radius:6px;display:flex;align-items:center;justify-content:center;color:#888;margin-bottom:8px}
+    .tags{font-size:0.85rem;color:#666;margin-top:10px}
+    footer{margin-top:30px;color:#666;font-size:0.9rem}
+    a{color:inherit;text-decoration:none}
+    .btn{display:inline-block;padding:8px 12px;border-radius:6px;border:1px solid #ddd;margin-right:8px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar">YOU</div>
+      <div>
+        <h1>YOUR NAME</h1>
+        <p class="lead">A short 1-line bio about you — e.g. Embedded Systems enthusiast. Link: <a href="YOUR_LINKEDIN_OR_CV">CV / LinkedIn</a></p>
+      </div>
+    </header>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="card">
+          <div class="thumb">Project 1 Image</div>
+          <h3>Project 1 Title</h3>
+          <p>One-line description: what it does, your role.</p>
+          <div class="tags">Tech: C, STM32 — <a href="https://github.com/your-username/project1">Repo</a> • <a href="#">Live</a></div>
+        </div>
+
+        <div class="card">
+          <div class="thumb">Project 2 Image</div>
+          <h3>Project 2 Title</h3>
+          <p>Short description: problem solved, main feature.</p>
+          <div class="tags">Tech: Python, Flask — <a href="https://github.com/your-username/project2">Repo</a></div>
+        </div>
+
+        <div class="card">
+          <div class="thumb">Project 3 Image</div>
+          <h3>Project 3 Title</h3>
+          <p>Short description: highlight outcome, metrics if any.</p>
+          <div class="tags">Tech: PCB, KiCad — <a href="https://github.com/your-username/project3">Repo</a></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Contact: <a href="mailto:your.email@example.com">your.email@example.com</a> • GitHub: <a href="https://github.com/your-username">github.com/your-username</a></p>
+    </footer>
+  </div>
+</body>
+</html>
